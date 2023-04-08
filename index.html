@@ -168,10 +168,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-03-22 16:56:04 / 修改时间：16:57:29" itemprop="dateCreated datePublished" datetime="2023-03-22T16:56:04+08:00">2023-03-22</time>
+              <time title="创建时间：2023-03-22 16:56:04" itemprop="dateCreated datePublished" datetime="2023-03-22T16:56:04+08:00">2023-03-22</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-03-23 11:46:03" itemprop="dateModified" datetime="2023-03-23T11:46:03+08:00">2023-03-23</time>
+              </span>
 
           
 
@@ -185,6 +191,73 @@
 
       
           <p>测试一下第一个博客</p>
+<h1 id="框架是怎么知道什么时候生成虚拟dom"><a href="#框架是怎么知道什么时候生成虚拟dom" class="headerlink" title="框架是怎么知道什么时候生成虚拟dom"></a>框架是怎么知道什么时候生成虚拟dom</h1><p>组件的数据发生变化时，会触发组件的重新渲染。在重新渲染组件时，Vue.js 会通过模板编译生成新的虚拟 DOM 树，并与旧的虚拟 DOM 树进行比较，以找出需要更新的节点。这个比较的过程称为 Virtual DOM 的 diff 算法。</p>
+<p>在组件实例化时，Vue.js 会通过解析组件的模板生成初始的虚拟 DOM 树，然后将其渲染到页面上。之后，在组件的生命周期中，当组件的状态发生改变时，Vue.js 会重新生成虚拟 DOM 树，并与旧的虚拟 DOM 树进行比较，以确定需要更新的部分。生成新的虚拟 DOM 树的过程是由 Vue.js 的渲染函数（render function）完成的。渲染函数接收组件的状态作为参数，返回一个新的虚拟 DOM 树。每次组件状态变化时，Vue.js 会重新调用渲染函数生成新的虚拟 DOM 树。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/22/2-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/03/22/2-blog/" class="post-title-link" itemprop="url">第二个</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-03-22 16:56:04" itemprop="dateCreated datePublished" datetime="2023-03-22T16:56:04+08:00">2023-03-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-08 17:37:29" itemprop="dateModified" datetime="2023-04-08T17:37:29+08:00">2023-04-08</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>测试一下第二个博客</p>
 
       
     </div>
@@ -336,7 +409,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
